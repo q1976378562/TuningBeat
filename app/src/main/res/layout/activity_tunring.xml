@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/red_dark"
+    tools:context=".Tunring.TunringActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/turning"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="3dp"
+        android:textColor="@color/primary2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="选择乐器:"
+            android:textSize="18sp"
+            android:textColor="@color/text_primary" />
+
+        <Spinner
+            android:id="@+id/instrumentSpinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/instrumentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="当前乐器: 吉他"
+        android:textSize="16sp"
+        android:layout_marginBottom="32dp"
+        android:textColor="@color/text_secondary" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/circle_background"
+        android:layout_marginBottom="40dp">
+        <TextView
+            android:id="@+id/noteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A4"
+            android:textSize="72sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary2"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="24dp">
+        <TextView
+            android:id="@+id/frequencyTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="440.0 Hz"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textColor="@color/text_primary" />
+        <TextView
+            android:id="@+id/accuracyTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+0.0 cents"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/text_secondary" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tuningStatusTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="准备中..."
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="12dp"
+        android:background="@drawable/circle_background"
+        android:textColor="@color/white" />
+</LinearLayout>

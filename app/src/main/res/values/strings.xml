@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">调音节拍器</string>
+    <string name="title_activity_beat">BeatActivity</string>
+    <string name="turning">调音器</string>
+    <string name="beat">节拍器</string>
+    <string name="text">你好，音乐人</string>
+    <string name="select">请选择你想要的功能</string>
+    <string name="tuner_title">返回主页</string>
+    <string name="beat_image">●</string>
+    <string name="start">开始</string>
+</resources>

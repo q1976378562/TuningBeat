@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#2196F3</color>
+    <color name="accent">#FF9800</color>
+    <color name="background">#F5F5F5</color>
+    <color name="strong_beat">#F44336</color>
+    <color name="medium_beat">#FF9800</color>
+    <color name="weak_beat">#757575</color>
+    <color name="background2">#F5F5F5</color>
+    <color name="primary2">#2196F3</color>
+    <color name="secondary">#FF9800</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="colorPrimaryDark">#FF212121</color>
+    <color name="colorTextDark">#DDFFFFFF</color>
+    <color name="colorTextDarkCanvas">#ff9412</color>
+    <color name="red_light">#46e10000</color>
+    <color name="green_light">#4600ff00</color>
+    <color name="red_dark">#20e10000</color>
+    <color name="green_dark">#2000ff00</color>
+    <color name="bg_grey">#E7E7ED</color>
+    <color name="btn_grey">#8A8A91</color>
+
+    <color name="Arc_grey">#36DEDFFF</color>
+    <color name="keyview_backg">#CB1C1C3A</color>
+    <color name="keyview_backRect">#3F408F</color>
+    <color name="keyboard">#79CBCBDC</color>
+    <color name="keyboard_black">#242432</color>
+    <color name="keyboard_stro">#28282C</color>
+    <color name="lightkey">#DDDFFF</color>
+    <color name="lightkey_b">#FFB677</color>
+    <color name="lightkey_stro">#F1F1F1</color>
+
+    <color name="metro_bg">#FCFCFF</color>
+    <color name="metro_rrecf">#E6E4F7</color>
+    <color name="metro_rrecf2">#FFF4EB</color>
+    <color name="metro_shalow_black">#43434C</color>
+    <color name="metro_baby_grey">#6F6F7A</color>
+    <color name="metro_text">#5C3F408F</color>
+    <color name="metro_shade">#5C3E3E4E</color>
+    <color name="metro_margin">#878798</color>
+    <color name="metro_pendl">#FFFFFF</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+
+    <color name="background_black">#25233C</color>
+    <color name="background_blueblack">#26234E</color>
+    <color name="background_white">#FDFDFD</color>
+    <color name="theme_blue">#3B3C9F</color>
+    <color name="theme_orange">#FFB677</color>
+    <color name="blue_light">#46202187</color>
+    <color name="orange_light">#46FF7E0E</color>
+    <color name="title_white">#A4A2C3</color>
+    <color name="false_bg">#79D84444</color>
+    <color name="correct_bg">#5E5FE3</color>
+
+    <color name="setting_bg">#F1E7DE</color>
+
+    <color name="trans">#00FFB677</color>
+    <color name="seekbar_bg">#D0D0D8</color>
+</resources>
